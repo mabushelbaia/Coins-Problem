@@ -14,13 +14,13 @@ $P(White|White)\ =\ \frac{P(White \cap White)}{P(White)} =\ \frac{0.33333}{0.5} 
 
 ## Simulation Solution
 
-```bash 
+```sh 
 gcc main.c -o main
 ./main
 ```
 
 ## Results
 
-```bash 
+```sh 
 Samples: 9508482, White Draws: 4755587, All White: 3170232, P(W|W): 0.666633
 ```
