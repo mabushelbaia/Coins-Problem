@@ -7,7 +7,9 @@ Given 3 coins each coin has 2 colored faces, the colors for each is (WHITE, WHIT
 ## Mathmitical Solution
 
 $P(White) = 0.5$
+
 $P(Black) = 0.5$
+
 $P(White|White)\ =\ \frac{P(White \cap White)}{P(White)} =\ \frac{0.33333}{0.5} = 0.66666$
 
 ## Simulation Solution
