@@ -22,3 +22,9 @@ gcc main.c -o main
 ```bash 
 Samples: 9508482, White Draws: 4755587, All White: 3170232, P(W|W): 0.666633
 ```
+```bash
+ .
+├──  main
+├──  main.c
+└──  README.md
+```
