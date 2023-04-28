@@ -8,5 +8,5 @@ default:
 clean:
 	rm $(TARGET)
 
-run:
+run: default
 	./$(TARGET)

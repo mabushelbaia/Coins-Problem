@@ -15,7 +15,6 @@ $$
 ## Simulation Solution
 
 ```sh 
-make 
 make run
 ```
 
