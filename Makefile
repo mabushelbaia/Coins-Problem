@@ -1,11 +1,12 @@
-# Generate A make file here running main.cpp
-# Date: 2/17/2021
+BUILD = gcc
+TARGET = main
+SRC = main.c
 
 default:
-	gcc -o main main.c 
+	$(BUILD) -o $(TARGET) $(SRC)
 
 clean:
-	rm  main
+	rm $(TARGET)
 
 run:
-	./main
+	./$(TARGET)
