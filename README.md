@@ -15,8 +15,8 @@ $$
 ## Simulation Solution
 
 ```sh 
-gcc main.c -o main
-./main
+make 
+make run
 ```
 
 ## Results
