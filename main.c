@@ -1,11 +1,15 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
+#include <sys/types.h>
+
 #define True 1
 #define False 0
 
 int main () {
-    char * coins[] = {"WW", "WB", "WW", "BW", "BB", "BB"};
-    long samples=0, white_draws=0, all_white = 0;
+    char * coins[] = {"WW", "WB", "WW", "BW", "BB", "BB"}; 
+    long long samples=0, white_draws=0, all_white = 0;
+    srand(getpid());
     while (True) {
         samples++;
         int i = rand() % 6;

@@ -12,10 +12,10 @@ P(White\ |\ White)\ = \frac{P(White \cap White)}{P(White)} = {2 \over 3}
 \end{align}
 $$
 
-## Simulation Solution
+## Simulation Run
 
 ```sh 
-make run
+make
 ```
 
 ## Results

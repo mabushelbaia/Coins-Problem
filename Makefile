@@ -1,10 +1,6 @@
-BUILD = gcc
-TARGET = main
-SRC = main.c
-
-default:
-	$(BUILD) -o $(TARGET) $(SRC)
+default: main.o
+	./main.o
+main.o: main.c
+	gcc -o main.o main.c
 clean:
-	rm $(TARGET)
-run: default
-	./$(TARGET)
+	rm -rf *.o
